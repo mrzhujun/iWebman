@@ -41,13 +41,13 @@ return [
         'count'  => 10,
     ],*/
 
-    'task' => [
-        // 这里指定进程类
-        'handler'  => process\TaskTest::class,
-        // 监听的协议 ip 及端口 （可选）
-        'listen'  => 'websocket://0.0.0.0:8888',
-        // 进程数 （可选，默认1）
-        'count'   => 4,
+//    'task' => [
+//        // 这里指定进程类
+//        'handler'  => process\TaskTest::class,
+//        // 监听的协议 ip 及端口 （可选）
+//        'listen'  => 'websocket://0.0.0.0:8888',
+//        // 进程数 （可选，默认1）
+//        'count'   => 4,
         // 进程运行用户 （可选，默认当前用户）
 //        'user'    => '',
         // 进程运行用户组 （可选，默认当前用户组）
@@ -62,5 +62,5 @@ return [
 //        'context'    => [],
         // 进程类构造函数参数，这里为 process\Pusher::class 类的构造函数参数 （可选）
 //        'constructor' => [],
-    ],
+//    ],
 ];

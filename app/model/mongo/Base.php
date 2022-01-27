@@ -16,7 +16,7 @@ class Base extends MongoModel
 {
     public function __construct()
     {
-        $config = new ConfigStruct('192.168.4.206','27017');
+        $config = new ConfigStruct(config('mongodb.host'),config('mongodb.port'),config('mongodb.user'),config('mongodb.password'));
         parent::__construct($config);
     }
 }

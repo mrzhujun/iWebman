@@ -125,5 +125,5 @@ if (\DIRECTORY_SEPARATOR === '/') {
         };
     }
 }
-
+require_once 'start_monitor.php';
 Worker::runAll();
